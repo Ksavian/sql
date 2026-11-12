@@ -4,7 +4,7 @@ import scipy.stats as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-'''
+
 df = pd.read_csv("c:/happines_corruption.csv")
 #print(df.info())
 #print("\n",df.describe())
@@ -64,7 +64,7 @@ plt.grid(True, linestyle='--', alpha=0.5)
 plt.legend(title="Continent", bbox_to_anchor=(1.05, 1), loc='upper left') 
 plt.tight_layout() 
 plt.show()
-'''
+
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, r2_score
